@@ -1,6 +1,6 @@
 # Login Verification Project
 
-Este é um projeto de verificação de login construído com **ReactJS**, **TypeScript**, **Shadcn** e **Formik**. Ele oferece um formulário de login com validação de email e senha, além de um campo para recuperação de senha com validação de email.
+Este é um projeto de verificação de login construído com **ReactJS**, **TypeScript**, **TailwindCss** , **Shadcn** e **Formik**. Ele oferece um formulário de login com validação de email e senha, além de um campo para recuperação de senha com validação de email.
 
 ## Tecnologias Utilizadas
 
@@ -8,6 +8,7 @@ Este é um projeto de verificação de login construído com **ReactJS**, **Type
 - **TypeScript**: Superconjunto do JavaScript que adiciona tipagem estática ao código.
 - **Shadcn**: Biblioteca para estilização e efeitos visuais.
 - **Formik**: Biblioteca para gerenciamento de formulários e validação de campos.
+- **Tailwind CSS**: Framework de CSS utilizado para a estilização do frontend..
 
 ## Funcionalidades
 
