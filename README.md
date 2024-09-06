@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+# Login Verification Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de verificação de login construído com **ReactJS**, **TypeScript**, **Shadcn** e **Formik**. Ele oferece um formulário de login com validação de email e senha, além de um campo para recuperação de senha com validação de email.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **ReactJS**: Biblioteca JavaScript para criação de interfaces de usuário.
+- **TypeScript**: Superconjunto do JavaScript que adiciona tipagem estática ao código.
+- **Shadcn**: Biblioteca para estilização e efeitos visuais.
+- **Formik**: Biblioteca para gerenciamento de formulários e validação de campos.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Login**: Formulário de login com validação de email e senha.
+- **Esqueceu a Senha**: Formulário para recuperação de senha, validando apenas o campo de email.
 
-- Configure the top-level `parserOptions` property like this:
+## Instalação
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Para instalar e rodar o projeto localmente, siga os passos abaixo:
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/verification-login.git
+
+2. Instale as dependências:
+```bash
+npm install
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+3. Execute o projeto:
+```bash
+npm run dev
